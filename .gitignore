@@ -1,0 +1,83 @@
+# dotnet
+bin/
+obj/
+
+# editors
+.vs/
+.vscode/
+.idea/
+
+# user
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# build
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]Release/
+[Dd]ReleasePublic/
+x64/
+x86/
+arm/
+arm64/
+
+# core
+project.lock.json
+project.fragment.lock.json
+artifacts/**
+
+# environment
+.env
+.env.local
+.env.*.local
+
+# os
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.cab
+.msi
+.msm
+.msp
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+*~
+
+# package
+node_modules/
+packages/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+vendor/
+
+.nuget/
+
+# temp
+*.log
+*.bak
+*.swp
+*.swo
+
+# cache
+~/.nuget/packages/
+
+.vscode/.folder-cache/
+.vscode/.cache/
+.vscode/.tmp/
+.vs/.vsconfig/
+.vs/Workloads/
+
+.Razor/
+
+/yarn-cache/
+.npm/
+.npm-cache/
+
+.idea/.idea/
